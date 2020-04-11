@@ -1,7 +1,6 @@
 package com.company;
 
 import java.util.Scanner;
-import java.io.PrintStream;
 
 public class Main
 {
@@ -16,6 +15,7 @@ public class Main
         nazywamSie = wpisz.nextLine();
         System.out.println("Nazywasz się " + nazywamSie );
     }
+
     public static void ileLat()
     {
         System.out.println("Powiedz mi ile masz lat?\n");
@@ -25,12 +25,17 @@ public class Main
 
     public static void zaRok()
     {
-        System.out.println("Za rok będziesz miał: " + (++wiek ) + " lata");
+        System.out.println("Za rok będziesz miał: " + (wiek + 1) + " lata");
     }
 
-    public static void sprawdzLicencje(String kod)
+    /**
+     *
+     * @param kod <String>
+     * @return boolean
+     */
+    public static boolean sprawdzLicencje(String kod)
     {
-    if(licencja.equals(kod));
+        return licencja.equals(kod);
     }
 
     public static void main(String[] args)
@@ -51,8 +56,9 @@ public class Main
             {
                 System.out.println("Masz dostęp do programu \n Proszę wpisz kod licencji 5hXi3POXa");
                 String kod = (wpisz.nextLine());
-                sprawdzLicencje(kod);
+
             }
         }
+
     }
 }
