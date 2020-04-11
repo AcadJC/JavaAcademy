@@ -54,27 +54,5 @@ public class Main
                 sprawdzLicencje(kod);
             }
         }
-        /*
-        if(wiek>0 && wiek<=12)
-        {
-            System.out.println("Nie masz dostępu do programu");
-        }
-        else if(wiek>12 && wiek<=40)
-        {
-            System.out.println("Masz dostęp do programu");
-        }
-
-        /*
-        String nazywamSie;
-        int wiek = 0;
-
-        Scanner inReader = new Scanner(System.in);
-        System.out.println("Jak się nazywasz?");
-        nazywamSie = inReader.nextLine();
-        System.out.println("Ile masz lat?");
-        wiek = inReader.nextInt();
-        System.out.println(nazywamSie + " masz " + wiek + " Lat");
-        System.out.println("Za rok będziesz miał: " + (++wiek ) + " lata");
-        */
     }
 }
