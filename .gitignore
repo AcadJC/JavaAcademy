@@ -1,0 +1,9 @@
+#ignored dirs
+/.git
+/.idea
+/logs
+/out
+
+#ignored files
+*.iml
+
