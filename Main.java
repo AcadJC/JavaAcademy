@@ -52,6 +52,7 @@ public class Main
                 System.out.println("Masz dostęp do programu \n Proszę wpisz kod licencji 5hXi3POXa");
                 String kod = (wpisz.nextLine());
                 sprawdzLicencje(kod);
+				
             }
         }
     }
